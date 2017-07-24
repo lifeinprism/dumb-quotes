@@ -1,0 +1,65 @@
+body, html {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+hr { 
+  display: block;
+  width: 75%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-top: 1px solid #ff6666;
+}
+
+#quoteDiv {
+  position: relative;
+  top: 20%; 
+  width: 80%;
+  height: 300px;
+  margin: auto;
+}
+
+#quoteSpace {
+  padding-bottom: 30px;
+  font-family: 'Homemade Apple';
+  font-size: 40px;
+  text-align: center;
+}
+
+#authorSpace {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Calligraffitti';
+}
+
+.wrapper {
+/*  width: 750px;*/
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+  width: 750px;
+  height: 60px;
+
+}
+.floating-box {
+  display: table-cell;
+  vertical-align: middle;
+  width: 250px;
+  text-align: center;
+}
+
+.floating-box a {
+  text-decoration: none;
+  color: #ff6666;
+  font-size: 33px;
+  text-align: center;
+}
